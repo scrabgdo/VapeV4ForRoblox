@@ -1361,3 +1361,4 @@ return {
 	luau_deserialize = luau_deserialize,
 	luau_load = luau_load,
 }
+
