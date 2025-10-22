@@ -1,7 +1,5 @@
 > [!WARNING]
-> Vape is discontinued, this page will now be held as an archive of my work more then anything.
-
-<p align="center">
+> <p align="center">
 <picture>
 <source media="(prefers-color-scheme: dark)" srcset="./README/vapelogo-white.png">
 <source media="(prefers-color-scheme: light)" srcset="./README/vapelogo-dark.png">
